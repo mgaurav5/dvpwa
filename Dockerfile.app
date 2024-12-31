@@ -1,4 +1,4 @@
-FROM python:3.9-slim
+FROM python:3.14.0a3-slim
 
 RUN apk add --no-cache wget \
     && wget -O /usr/bin/wait-for https://raw.githubusercontent.com/eficode/wait-for/master/wait-for \
